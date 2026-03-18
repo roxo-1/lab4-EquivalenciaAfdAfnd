@@ -1,15 +1,21 @@
-# Automato Finito Determinístico Minimizado
+# Automato Finito Deterministico equivalente
 
 # Alfabeto
- a b
+A a b
 # Estados
-Q [[A]]
+Q [A] [A,B] [A,C]
 
 # Estado Inicial
 
-q s0
-# Estados Finais
+q [A]
 
+# Estado Inicial
+F [A,C]
 # Transições
-T [A] a [A]
-T [A] b [A]
+
+T [A a A,B]
+T [A b A]
+T [A,B a A,B]
+T [A,B b A,C]
+T [A,C a A,B]
+T [A,C b A]
