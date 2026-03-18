@@ -1,0 +1,11 @@
+# Automato Finito Deterministico equivalente
+A a b
+Q [A] [A,B] [A,C]
+q [A]
+F [A,C]
+T [A] a [A,B]
+T [A] b [A]
+T [A,B] a [A,B]
+T [A,B] b [A,C]
+T [A,C] a [A,B]
+T [A,C] b [A]

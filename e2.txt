@@ -1,0 +1,18 @@
+# Automato que reconhece terminados em 1
+# Alfabeto:
+A 0 1
+# Estados:
+Q q0 q1 q2 q3
+# Estado Inicial:
+q q0
+# Estados Finais:
+F q1 q2
+# Transições
+T q0 0 q0
+T q0 1 q1
+T q1 0 q0
+T q1 1 q2
+T q2 0 q0
+T q2 1 q2
+T q3 0 q3
+T q3 1 q0

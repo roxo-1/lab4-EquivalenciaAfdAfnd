@@ -1,0 +1,22 @@
+# Automato com estados em loop inacessíveis
+# Alfabeto:
+A a b
+# Estados:
+Q q0 q1 q2 q3 q4 q5
+# Estado Inicial:
+q q0
+# Estados Finais:
+F q2
+# Transições
+T q0 a q1
+T q0 b q0
+T q1 a q1
+T q1 b q2
+T q2 a q1
+T q2 b q0
+T q3 a q2
+T q3 b q1
+T q4 a q5
+T q4 b q4
+T q5 a q4
+T q5 b q5

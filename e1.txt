@@ -1,0 +1,20 @@
+# Automato Finito Nao Deterministico
+# L(N) = (a|b)*ab
+
+# Alfabeto
+A a b
+
+# Estados
+Q A B C
+
+# Estado inicial
+q A
+
+# Estados finais
+F C
+
+# Transicoes
+T A a A
+T A b A
+T A a B
+T B b C

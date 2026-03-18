@@ -1,0 +1,15 @@
+# Automato Finito Determinístico Minimizado
+
+# Alfabeto
+ a b
+# Estados
+Q [[A]]
+
+# Estado Inicial
+
+q s0
+# Estados Finais
+
+# Transições
+T [A] a [A]
+T [A] b [A]
