@@ -175,7 +175,7 @@ void saida(Automato *afd, const char *fileSaida) {
     fprintf(file, "\nq [%s]\n", afd->estado_inicial);
 
 
-    fprintf(file, "\n# Estado Inicial\n");
+    fprintf(file, "\n# Estado Final\n");
     fprintf(file, "F");
     for(int i=0; i < afd->qtd_finais; i++) fprintf(file, " [%s]", afd->estados_finais[i]);
 
